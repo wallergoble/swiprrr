@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Swiprrr",
+  "description": "Because my fingers got tired",
+  "icons": {
+    "16": "resources/swiprrr.png",
+    "48": "resources/swiprrr.png",
+    "128": "resources/swiprrr.png"
+  },
+  "browser_action": {
+    "default_icon": "resources/swiprrr.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/"
+  ]
+}
